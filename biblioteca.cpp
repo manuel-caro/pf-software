@@ -41,7 +41,6 @@ void consultar();
 //Funcion principal main
 int main(){
 	system("mode con: cols=80 lines=25");
-	system("COLOR F0");
 	CursorOff();
  cout << "          SISTEMA PARA BIBLIOTECA";
 	menu();
