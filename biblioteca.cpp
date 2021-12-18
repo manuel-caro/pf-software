@@ -24,7 +24,7 @@ typedef struct{
 
 biblioteca bi[7];
 
-//Prototipos de las funciones
+//Definicion de las funciones
 void dibujarCuadro(int x1,int y1,int x2,int y2);
 void gotoxy(int x,int y);
 void CursorOn(bool visible, DWORD size);
@@ -49,7 +49,7 @@ int main(){
 	return 0;
 }
 
-
+//Funcion del menu de opciones
 void menu(){
 	char op;
 	CursorOn(1,10);
